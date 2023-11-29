@@ -11,6 +11,7 @@ const options ={
 const ApiUrl="https://api.api-ninjas.com/v1/dadjokes?limit=1"
 
 async function getjokes(){
+    jokeEl.innerText="Updating..."
     const response=await fetch(ApiUrl,options)
     const data=await response.json();
     jokeEl.innerText=data[0].joke;
