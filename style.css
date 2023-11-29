@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to left top,lightblue,lightgreen,lightblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+}
+.container{
+    background-color:rgba(255, 255, 255,.3);
+    padding: 10%;
+    box-shadow: 0 6px 20px rgba(0, 0, 0,.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.joke{
+    color:  rgba(19, 19, 18, 0.587);
+    font-size: 25px;
+    font-weight: 500px;
+}
+.heading{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    text-shadow: 5px 5px 10px;
+    font-size: 35px;
+    color: rgb(193, 170, 40);
+}
+.btn{
+    border-radius: 5px;
+    color:rgb(216, 187, 133);
+    padding: 2%;
+    background-color: rgb(255, 255, 255,.3);
+    cursor: pointer;
+    border-color: rgb(255, 255, 255,.7);
+    text-transform: uppercase;
+    
+}
